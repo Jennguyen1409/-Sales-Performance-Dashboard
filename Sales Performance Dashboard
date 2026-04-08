@@ -1,0 +1,31 @@
+# Retail Sales Performance Dashboard
+
+## Overview
+Interactive Power BI dashboard analyzing retail sales data with 1,000+ transactions. Identifies top-performing branches, products, and customer segments.
+
+## Key Insights
+- **Total Revenue:** 118.58K
+- **Top Branch:** Branch A (70% of total revenue - 82.81K)
+- **Top Products:** Shampoo, Orange Juice, Notebook, Detergent, Apple
+- **Customer Insight:** Male customers spend 37% more than female customers ($32K vs $23K)
+
+## Dashboard Preview
+![Dashboard Overview](screenshot1.png)
+
+## Features
+- DAX measures for Total Revenue, Total Quantity, and Avg Transaction Value
+- Interactive slicers for Branch and Customer Type filtering
+- Matrix visual for customer segment analysis (Gender × Customer Type)
+
+## How to View
+1. Download the `.pbix` file from this repository
+2. Open with Power BI Desktop (free download from Microsoft)
+3. Interact with slicers and visuals
+
+## Tools Used
+- Power BI Desktop
+- DAX (Data Analysis Expressions)
+- Power Query for data cleaning
+
+## Data Source
+Retail sales dataset from Kaggle (1,000+ transactions, 12 columns)
